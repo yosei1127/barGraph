@@ -1,5 +1,5 @@
 void loadData() {
-  String [] lines = loadStrings("data2.txt");
+  String [] lines = loadStrings("data.txt");
   
   mdata = new float[lines.length];
   edata = new float[lines.length];
