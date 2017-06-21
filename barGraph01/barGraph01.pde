@@ -7,7 +7,7 @@ float [] mdata, edata;
 
 
 void setup() {
-  size(600, 400);
+  size(480, 640);
   noLoop();
   
   loadData();
