@@ -1,6 +1,3 @@
-float [] mdata, edata;
-
-
 void loadData() {
   String [] lines = loadStrings("data2.txt");
   

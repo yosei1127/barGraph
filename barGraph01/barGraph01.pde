@@ -3,6 +3,9 @@ float gy = 360;
 float gw = 500;
 float gh = 300;
 
+float [] mdata, edata;
+
+
 void setup() {
   size(600, 400);
   noLoop();
@@ -22,6 +25,5 @@ void draw() {
   for (int i = 0; i < mdata.length; i++) {
     fill(255);
     pgLineGraph(i+1, mdata[i], edata[i]);
-    drawBar(i+1, mdata[i],edata[i]);
   }
 }
