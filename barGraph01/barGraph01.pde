@@ -1,9 +1,7 @@
 float gx = 50;
-float gy = 360;
-float gw = 500;
-float gh = 300;
-
-float [] mdata, edata;
+float gy = 600;
+float gw = 400;
+float gh = 500;
 
 
 void setup() {
@@ -22,7 +20,7 @@ void draw() {
   line(gx, gy, gx+gw, gy);
   line(gx, gy-gh, gx, gy);
   
-  for (int i = 0; i < mdata.length; i++) {
+  for (int i = 0; i < data2014.length; i++) {
     fill(255);
     pgLineGraph(i+1, mdata[i], edata[i]);
   }
